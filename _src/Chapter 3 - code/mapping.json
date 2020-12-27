@@ -1,0 +1,34 @@
+{
+  "book" : {
+    "properties" : {
+      "author" : {
+        "type" : "string"
+      },
+      "characters" : {
+        "type" : "string"
+      },
+      "copies" : {
+        "type" : "long",
+        "ignore_malformed" : false
+      },
+      "otitle" : {
+        "type" : "string"
+      },
+      "tags" : {
+        "type" : "string",
+        "index" : "not_analyzed"
+      },
+      "title" : {
+        "type" : "string"
+      },
+      "year" : {
+        "type" : "long",
+        "ignore_malformed" : false,
+        "index" : "analyzed"
+      },
+      "available" : {
+        "type" : "boolean"
+      }
+    }
+  }
+}

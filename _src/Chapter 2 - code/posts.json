@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "post": {
+      "properties": {                
+        "id": { "type":"long" },
+        "name": { "type":"string" },
+        "published": { "type":"date" },
+        "contents": { "type":"string" }             
+      }
+    }
+  }
+}

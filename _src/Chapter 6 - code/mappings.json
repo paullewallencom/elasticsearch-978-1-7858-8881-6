@@ -1,0 +1,51 @@
+{
+  "mappings" : {
+    "doc" : {
+      "properties" : {
+        "title" : {
+          "type" : "string",
+          "index" : "analyzed",
+          "fields" : {
+            "english" : {
+              "type" : "string",
+              "index" : "analyzed",
+              "analyzer" : "english"
+            },
+            "russian" : {
+              "type" : "string",
+              "index" : "analyzed",
+              "analyzer" : "russian"
+            },
+            "german" : {
+              "type" : "string",
+              "index" : "analyzed",
+              "analyzer" : "german"
+            }
+	  } 
+        },
+        "content" : {
+          "type" : "string",
+          "index" : "analyzed",
+          "fields" : {
+            "english" : {
+              "type" : "string",
+              "index" : "analyzed",
+              "analyzer" : "english"
+            },
+            "russian" : {
+              "type" : "string",
+              "index" : "analyzed",
+              "analyzer" : "russian"
+            },
+            "german" : {
+              "type" : "string",
+              "index" : "analyzed",
+              "analyzer" : "german"
+            }
+	  } 
+        }
+      } 
+    }
+  } 
+} 
+

@@ -1,0 +1,24 @@
+{
+  "query" : { 
+    "bool" : {
+      "must" : {
+        "term" : {
+          "title" : "crime"
+        }
+      }, 
+      "should" : {
+        "range" : {
+          "year" : {
+            "gt" : 1900,
+            "lt" : 2000
+          }
+        } 
+      },
+      "must_not" : {
+        "term" : {
+          "otitle" : "nothing"
+        }
+      } 
+    }
+  } 
+}

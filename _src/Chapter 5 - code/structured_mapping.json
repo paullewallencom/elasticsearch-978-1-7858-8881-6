@@ -1,0 +1,27 @@
+{
+ "book" : {
+  "properties" : {
+   "author" : {
+    "type" : "object",
+    "properties" : {
+     "name" : {
+      "type" : "object",
+      "properties" : {
+       "firstName" : {"type" : "string"},
+       "lastName" : {"type" : "string"}
+      }
+     }
+    }
+   },
+   "isbn" : {"type" : "string"},
+   "englishTitle" : {"type" : "string"},
+   "year" : {"type" : "integer"},
+   "characters" : {
+    "properties" : {
+     "name" : {"type" : "string"}
+    }
+   },
+   "copies" : {"type" : "integer"}
+  }
+ }
+}

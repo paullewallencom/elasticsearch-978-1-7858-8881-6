@@ -1,0 +1,11 @@
+{
+  "mappings" : {
+    "country": {
+      "properties": {
+        "name": { "type": "string", "index": "not_analyzed" },
+        "area": { "type": "geo_shape" }
+      }
+    }
+  }
+} 
+

@@ -1,0 +1,10 @@
+{ "index" : { "_index" : "map2", "_type" : "poi", "_id" : 1 }}
+{ "name" : "New York", "location" : { "type": "point", "coordinates": [-73.938611, 40.664167] }}
+{ "index" : { "_index" : "map2", "_type" : "poi", "_id" : 2 }}
+{ "name" : "London", "location" : { "type": "point", "coordinates": [-0.1275, 51.507222] }}
+{ "index" : { "_index" : "map2", "_type" : "poi", "_id" : 3 }}
+{ "name" : "Moscow", "location" : { "type": "point", "coordinates": [ 37.616667, 55.75]}}
+{ "index" : { "_index" : "map2", "_type" : "poi", "_id" : 4 }}
+{ "name" : "Sydney", "location" : { "type": "point", "coordinates": [151.211111, -33.865143]}}
+{ "index" : { "_index" : "map2", "_type" : "poi", "_id" : 5 }}
+{ "name" : "Lisbon", "location" : { "type": "point", "coordinates": [-9.142685, 38.736946] }}

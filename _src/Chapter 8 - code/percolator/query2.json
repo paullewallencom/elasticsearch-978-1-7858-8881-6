@@ -1,0 +1,19 @@
+{
+  "query" : { 
+    "bool": {
+      "must" : {
+        "range" : {
+          "year" : {
+            "lt" : 2010 
+          }
+        } 
+      },
+      "filter" : {
+        "term" : {
+          "available" : true
+        }
+      } 
+    }
+  } 
+} 
+

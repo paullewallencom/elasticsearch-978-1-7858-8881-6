@@ -1,0 +1,10 @@
+{
+  "mappings" : {
+    "poi" : {
+      "properties" : {
+        "name" : { "type" : "string", "index": "not_analyzed" },
+        "location" : { "type" : "geo_shape" }
+      }
+    }
+  }
+}
